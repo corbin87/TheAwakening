@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Home.unity
-    guid: be8c2c835c83a1b4f985009db5428965
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Country.unity
-    guid: 55ae3f929f021ef4989020f55ee661a6
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Warwick.unity
-    guid: 93e2ac15f6d60f94481c587684e9b89d
+    path: Assets/Scenes/MainMenu.unity
+    guid: f2cfe5b88d9e5c44ba6c4ee948e442c4
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 89d2ca24b46679046ac1c6cd459c1a8a
   - enabled: 1
     path: Assets/Scenes/Brandon.unity
     guid: ec0b1ee4e9fb2d043a95e9f10aa297fa
+  - enabled: 1
+    path: Assets/Scenes/Warwick.unity
+    guid: 93e2ac15f6d60f94481c587684e9b89d
   m_configObjects: {}

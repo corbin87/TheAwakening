@@ -138,6 +138,7 @@ MonoBehaviour:
   areaTransitionedTo: 
   inTransitionArea: 0
   transitionDone: 0
+  canMove: 0
   sceneCamera: {fileID: 0}
 --- !u!95 &2156112656205802570
 Animator:

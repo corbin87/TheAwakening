@@ -6,6 +6,7 @@ public class EssentialsLoader : MonoBehaviour
 {
     public GameObject UIScreen;
     public GameObject player;
+    public GameObject manager;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,12 @@ public class EssentialsLoader : MonoBehaviour
         {
             Instantiate(player);
             player.transform.position = this.gameObject.transform.position;
+        }
+
+        // Initialize Game Manager
+        if (GameManager.instance == null)
+        {
+            Instantiate(manager);
         }
     }
 
